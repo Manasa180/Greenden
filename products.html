@@ -1,0 +1,152 @@
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+/>
+
+
+<nav
+  class="bg-green-100 p-3 flex justify-between items-center shadow-xl sticky top-0 z-10"
+>
+  <h1 class="text-2xl">Greenden</h1>
+  <svg 
+    id="menubar"
+    class="w-6 h-6 cursor-pointer md:hidden "
+    icon
+    fill="none"
+    stroke-width="1.5 "
+    stroke="currentColor"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+    aria-hidden="true"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+      class="w-6 h-6"
+      stroke="currentColor"
+      fill="none"
+      stroke-width="2"
+    ></path>
+  </svg>
+
+  <ul class="flex gap-5 text-gray-600 hidden md:flex">
+    <li>
+      <a href="./index.html" class="hover:underline hover:text-black">Home</a>
+    </li>
+
+    <li>
+      <a class="hover:underline hover:text-black" href="./products.html"
+        >Products</a
+      >
+    </li>
+    <li>
+      <a class="hover:underline black hover:text-black" href="./contact.html"
+        >contact</a
+      >
+    </li>
+  </ul>
+</nav>
+<!-- side navbar -->
+<section id="side" class="bg-green-100 fixed z-20 top-0 right-0 text-center transition-all duration-1000" style="width: 50% ; height: 100vh; right: -50%; ">
+    <p id="close" class="text-1xl p-10 text-right cursor-pointer">X</p>
+    <ul class="flex flex-col gap-10 text-gray-600  ">
+        <li>
+            <a href="./index.html" class="hover:underline hover:text-black">Home</a>
+        
+        </li>
+       
+        <li>
+            <a class="hover:underline hover:text-black " href="./products.html">Products</a>
+        </li>
+        <li>
+            <a class="hover:underline black hover:text-black " href="./contact.html">contact</a>
+        </li>
+    </ul>
+  </section>
+<div class="flex flex-col items-center">
+  <h2 class="font-bold text-3xl m-5">Our Products..</h2>
+  <input
+  id="search"
+    type="text"
+    placeholder="Search for Products"
+    class="p-2 border border-black border-1 focus:outline-none"
+    style="width: 80%"
+  />
+</div>
+<section id="container" class="grid grid-cols-2 p-5 md:grid-cols-4">
+  <div class="text-center m-6">
+    <img
+      class="inline hover:shadow-2xl transform hover:-translate-y-2"
+      src="./images/rose.jpg"
+    />
+    <p>Rose plant</p>
+    <p>$20</p>
+  </div>
+  <div class="text-center m-6">
+    <img
+      class="inline hover:shadow-2xl transform hover:-translate-y-2"
+      src="./images/Untitled design (1).jpg"
+    />
+    <p>marigold plant</p>
+    <p>$20</p>
+  </div>
+  <div class="text-center m-6">
+    <img
+      class="inline hover:shadow-2xl transform hover:-translate-y-2"
+      src="./images/Untitled design (2).jpg"
+    />
+    <p>show plant</p>
+    <p>$40</p>
+  </div>
+  <div class="text-center m-6">
+    <img
+      class="inline hover:shadow-2xl transform hover:-translate-y-2"
+      src="./images/Untitled design.jpg"
+    />
+    <p>mani plant</p>
+    <p>$30</p>
+  </div>
+  <div class="text-center m-6">
+    <img
+      class="inline hover:shadow-2xl transform hover:-translate-y-2"
+      src="./images/Untitled design (4).jpg"
+    />
+    <p>decoration plant</p>
+    <p>$20</p>
+  </div>
+  <div class="text-center m-6">
+    <img
+      class="inline hover:shadow-2xl transform hover:-translate-y-2"
+      src="./images/Untitled design (1).jpg"
+    />
+    <p>marigold</p>
+    <p>$20</p>
+  </div>
+  <div class="text-center m-6">
+    <img
+      class="inline hover:shadow-2xl transform hover:-translate-y-2"
+      src="./images/Untitled design (3).jpg"
+    />
+    <p>leafy plant</p>
+    <p>$40</p>
+  </div>
+  <div class="text-center m-6">
+    <img
+      class="inline hover:shadow-2xl transform hover:-translate-y-2"
+      src="./images/Untitled design (2).jpg"
+    />
+    <p>show plant</p>
+    <p>$30</p>
+  </div>
+</section>
+<!-- footer -->
+<section class="bg-green-100 p-10 flex flex-col gap-5">
+  <h1 class="text-4xl font-bold">Greenden</h1>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt iste, illum
+    placeat.
+  </p>
+  <p>@ 2021 Greenden.com</p>
+</section>
+<script src="./script.js"></script>
